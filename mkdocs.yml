@@ -1,0 +1,43 @@
+site_name: stepTM
+site_description: stepTM - technologické moduly pre fabrika-platform
+site_author: Pavol Krnáč
+
+repo_name: fabrika-platform/stepTM
+repo_url: https://github.com/fabrika-platform/stepTM
+
+theme:
+  name: material
+  #custom_dir: overrides
+  palette:
+    scheme: default
+    primary: blue
+    accent: blue
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.integrate
+    - content.code.annotate
+    - content.tabs.link
+
+nav:
+  - Home: index.md
+  - Modules:
+      - Introduction: modules/introduction.md
+      - Architecture: modules/architecture.md
+  - About: about.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css

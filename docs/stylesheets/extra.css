@@ -1,0 +1,23 @@
+/* extra.css */
+
+:root {
+  --md-primary-fg-color: #0088CC; /* modrá */
+  --md-primary-bg-color: #FFFFFF; /* biela */
+  --md-accent-fg-color: #0088CC;
+}
+
+.md-header, .md-footer {
+  background-color: #646363 !important; /* šedá */
+}
+
+.md-nav, .md-sidebar {
+  background-color: #646363 !important;
+}
+
+.md-typeset a {
+  color: #0088CC;
+}
+
+.md-typeset {
+  background-color: #FFFFFF;
+}
