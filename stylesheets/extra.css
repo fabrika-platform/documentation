@@ -10,9 +10,9 @@
   background-color: #646363 !important; /* šedá */
 }
 
-.md-nav, .md-sidebar {
-  background-color: #646363 !important;
-}
+/*.md-nav, .md-sidebar {
+#  background-color: #646363 !important;
+}*/
 
 .md-typeset a {
   color: #0088CC;
