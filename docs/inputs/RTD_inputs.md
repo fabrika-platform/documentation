@@ -1,0 +1,4 @@
+# Type of RTD inputs
+PT100
+PT1000
+NI1000

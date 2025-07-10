@@ -1,9 +1,9 @@
-site_name: stepTM
-site_description: stepTM - technologické moduly pre fabrika-platform
+site_name: Documentation
+site_description:  Documentation for fabrika-platform
 site_author: Pavol Krnáč
 
-repo_name: fabrika-platform/stepTM
-repo_url: https://github.com/fabrika-platform/stepTM
+repo_name: fabrika-platform/documentation
+repo_url: https://github.com/fabrika-platform/documentation
 
 theme:
   name: material
@@ -20,16 +20,34 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.top
-    - toc.integrate
+    #- toc.integrate
     - content.code.annotate
     - content.tabs.link
 
 nav:
-  - Home: index.md
-  - Modules:
-      - Introduction: modules/introduction.md
-      - Architecture: modules/architecture.md
-  - About: about.md
+  - Home: 
+      Overview: index.md
+  - Hardware:
+      Overview: hardware/overview.md
+      stepHMI: hardware/stepHMI.md
+      stepTM: hardware/stepTM.md
+      stepDRIVE: hardware/stepDRIVE.md
+  - Inputs: 
+      Digital inputs: inputs/digital_inputs.md
+      Analog inputs: inputs/analog_inputs.md
+      RTD inputs: inputs/RTD_inputs.md
+      TC inputs: inputs/TC_inputs.md
+  - Function blocks: 
+      FB:   function blocks/function_blocks.md
+      PID:  function blocks/PID.md
+  - Outputs: 
+      Digital outputs: outputs/digital_outputs.md
+      Analog outputs: outputs/analog_outputs.md
+  - Errors:
+      Input errors: errors/input_errors.md
+      Output errors: errors/output_errors.md
+      System errors: errors/system_errors.md
+  - About: modules/about.md
 
 markdown_extensions:
   - admonition
@@ -41,3 +59,4 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/custom.css
